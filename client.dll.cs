@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-05-05 09:39:28.853444800 UTC
+// 2024-05-09 21:37:27.888558600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -477,7 +477,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nDecalsAdded = 0xA78; // int32
             public const nint m_iOldHealth = 0xA7C; // int32
             public const nint m_nRenderMode = 0xA80; // RenderMode_t
-            public const nint m_nRenderFX = 0xA81; // 
+            public const nint m_nRenderFX = 0xA81; // RenderFx_t
             public const nint m_bAllowFadeInView = 0xA82; // bool
             public const nint m_clrRender = 0xA83; // Color
             public const nint m_vecRenderAttributes = 0xA88; // C_UtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
@@ -4026,7 +4026,7 @@ namespace CS2Dumper.Schemas {
         // Parent: CBaseAnimGraph
         // Fields count: 6
         public static class C_BulletHitModel {
-            public const nint m_matLocal = 0xED8; // matrix3x4_t
+            public const nint m_matLocal = 0xED8; // 
             public const nint m_iBoneIndex = 0xF08; // int32
             public const nint m_hPlayerParent = 0xF0C; // CHandle<C_BaseEntity>
             public const nint m_bIsHit = 0xF10; // bool
@@ -4523,7 +4523,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bModelOverrodeBlockLOS = 0xED8; // bool
             public const nint m_iShapeType = 0xEDC; // int32
             public const nint m_bConformToCollisionBounds = 0xEE0; // bool
-            public const nint m_mPreferredCatchTransform = 0xEE4; // matrix3x4_t
+            public const nint m_mPreferredCatchTransform = 0xEE4; // 
         }
         // Parent: C_CSGO_PreviewPlayer
         // Fields count: 0
@@ -5127,7 +5127,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_iEyeAttachment = 0xFA5; // AttachmentHandle_t
             public const nint m_bResetFlexWeightsOnModelChange = 0xFA6; // bool
             public const nint m_nEyeOcclusionRendererBone = 0xFC0; // int32
-            public const nint m_mEyeOcclusionRendererCameraToBoneTransform = 0xFC4; // matrix3x4_t
+            public const nint m_mEyeOcclusionRendererCameraToBoneTransform = 0xFC4; // 
             public const nint m_vEyeOcclusionRendererHalfExtent = 0xFF4; // Vector
             public const nint m_PhonemeClasses = 0x1010; // C_BaseFlex::Emphasized_Phoneme[3]
         }
